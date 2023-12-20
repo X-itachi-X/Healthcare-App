@@ -20,7 +20,7 @@ function App() {
           Appointments
         </a>
         <a href="#" className="text-white block p-2 hover:bg-gray-700 mt-3">
-          Link 5
+          Schedules
         </a>
         {/* Add more links/icons as needed */}
       </div>
