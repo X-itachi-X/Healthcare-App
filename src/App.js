@@ -8,7 +8,7 @@ function App() {
         {/* Your navigation links/icons go here */}
         <p className="text-white text-lg m-8 flex justify-around"><FaRegHospital className='w-10 h-10'/>XYZ HealthCare</p>
         <a href="#" className="text-white block p-2 hover:bg-gray-700 mt-8">
-          Link 1
+          Home
         </a>
         <a href="#" className="text-white block p-2 hover:bg-gray-700 mt-3">
           Link 2
