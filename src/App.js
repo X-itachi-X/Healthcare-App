@@ -41,9 +41,6 @@ function App() {
       <div className="flex-1 p-4">
         {/* Your main content goes here */}
         <Routes>
-          <Route path="/account">
-            <Account />
-          </Route>
           <Route path="/">
             <Home />
           </Route>
