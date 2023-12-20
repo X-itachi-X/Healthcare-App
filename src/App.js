@@ -1,6 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 import { FaRegHospital  } from "react-icons/fa";
+import Account from './components/account';
+import Appointments from './components/appointments';
+import Chat from './components/chat';
+import Payment from './components/payment';
+import Schedule from './components/schedule';
 function App() {
   return (
     <div className="flex h-screen bg-gray-600">
