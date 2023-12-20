@@ -10,7 +10,7 @@ function App() {
         <a href="#" className="text-white block p-2 hover:bg-gray-700 mt-8">
           Link 1
         </a>
-        <a href="#" className="text-white block p-2 hover:bg-gray-700">
+        <a href="#" className="text-white block p-2 hover:bg-gray-700 mt-5">
           Link 2
         </a>
         <a href="#" className="text-white block p-2 hover:bg-gray-700">
