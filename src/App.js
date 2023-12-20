@@ -18,21 +18,21 @@ function App() {
         <p className="text-white block p-2 hover:bg-gray-700 mt-8">
           <Link to="/">Home</Link>
         </p>
-        <a href="#" className="text-white block p-2 hover:bg-gray-700 mt-3">
+        <p className="text-white block p-2 hover:bg-gray-700 mt-3">
         <Link to="/account">Account</Link>
-        </a>
-        <a href="#" className="text-white block p-2 hover:bg-gray-700 mt-3">
+        </p>
+        <p  className="text-white block p-2 hover:bg-gray-700 mt-3">
         <Link to="/chat">Chat</Link>
-        </a>
-        <a href="#" className="text-white block p-2 hover:bg-gray-700 mt-3">
+        </p>
+        <p  className="text-white block p-2 hover:bg-gray-700 mt-3">
         <Link to="/appointments">Appointments</Link>
-        </a>
-        <a href="#" className="text-white block p-2 hover:bg-gray-700 mt-3">
+        </p>
+        <p  className="text-white block p-2 hover:bg-gray-700 mt-3">
         <Link to="/schedule">Schedule</Link>
-        </a>
-        <a href="#" className="text-white block p-2 hover:bg-gray-700 mt-3">
+        </p>
+        <p className="text-white block p-2 hover:bg-gray-700 mt-3">
         <Link to="/payment">Payment</Link>
-        </a>
+        </p>
         
         {/* Add more links/icons as needed */}
       </div>
