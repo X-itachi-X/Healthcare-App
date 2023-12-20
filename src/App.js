@@ -3,21 +3,8 @@ import './styles/tailwind.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p className="bg-blue-500 p-4">
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <p className='bg-red-800 p-4'>Learn React</p>
-        </a>
-      </header>
+    <div>
+      <p className='bg-red'>Hello world</p>
     </div>
   );
 }
