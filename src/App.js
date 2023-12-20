@@ -1,5 +1,5 @@
 import React from 'react';
-import { UisHospital } from '@iconscout/react-unicons-solid';
+import UisHospital from '@iconscout/react-unicons-solid';
 function App() {
   return (
     <div className="flex h-screen bg-gray-800">
