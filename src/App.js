@@ -1,5 +1,4 @@
 import logo from './logo.svg';
-import './App.css';
 import './styles/tailwind.css';
 
 function App() {
@@ -16,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <p className='bg-blue-800 p-4'>Learn React</p>
+          <p className='bg-red-800 p-4'>Learn React</p>
         </a>
       </header>
     </div>
