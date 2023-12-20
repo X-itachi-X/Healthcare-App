@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './styles/tailwind.css';
 
 function App() {
