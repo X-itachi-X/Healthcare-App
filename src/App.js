@@ -41,7 +41,12 @@ function App() {
       <div className="flex-1 p-4">
         {/* Your main content goes here */}
         <Routes>
-        <Route exact path="/" element={<Home />}></Route>
+            <Route exact path="/" element={<Home />}></Route>
+            <Route exact path="/account" element={<Account />}></Route>
+            <Route exact path="/chat" element={<Chat />}></Route>
+            <Route exact path="/appointments" element={<Appointments />}></Route>
+            <Route exact path="/schedule" element={<Schedule />}></Route>
+            <Route exact path="/payment" element={<Payment />}></Route>
         </Routes>
         
       </div>
