@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="flex h-screen bg-gray-800">
       {/* Left Sidebar */}
-      <div className="flex-shrink-0 w-16 bg-gray-900">
+      <div className="flex-shrink-1 w-16 bg-gray-900">
         {/* Your navigation links/icons go here */}
         <p className="text-white text-lg p-2"><FaRegHospital className='w-10 h-10 p-3' /></p>
         <a href="#" className="text-white block p-2 hover:bg-gray-700">
