@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch, Link, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import { FaRegHospital  } from "react-icons/fa";
 import Account from './components/account';
 import Appointments from './components/appointments';
