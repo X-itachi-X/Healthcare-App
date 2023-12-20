@@ -6,6 +6,7 @@ import Appointments from './components/appointments';
 import Chat from './components/chat';
 import Payment from './components/payment';
 import Schedule from './components/schedule';
+import Home from './components/home';
 function App() {
   return (
     <Router>
