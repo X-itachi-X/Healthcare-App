@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch, Link, Routes } from 'react-router-dom';
 import { FaRegHospital  } from "react-icons/fa";
 import Account from './components/account';
 import Appointments from './components/appointments';
@@ -18,19 +18,19 @@ function App() {
           <Link to="/">Home</Link>
         </p>
         <a href="#" className="text-white block p-2 hover:bg-gray-700 mt-3">
-        <Link to="/">Account</Link>
+        <Link to="/account">Account</Link>
         </a>
         <a href="#" className="text-white block p-2 hover:bg-gray-700 mt-3">
-        <Link to="/">Chat</Link>
+        <Link to="/chat">Chat</Link>
         </a>
         <a href="#" className="text-white block p-2 hover:bg-gray-700 mt-3">
-        <Link to="/">Appointments</Link>
+        <Link to="/appointments">Appointments</Link>
         </a>
         <a href="#" className="text-white block p-2 hover:bg-gray-700 mt-3">
-        <Link to="/">Schedule</Link>
+        <Link to="/schedule">Schedule</Link>
         </a>
         <a href="#" className="text-white block p-2 hover:bg-gray-700 mt-3">
-        <Link to="/">Payment</Link>
+        <Link to="/payment">Payment</Link>
         </a>
         
         {/* Add more links/icons as needed */}
@@ -39,6 +39,14 @@ function App() {
       {/* Main Content */}
       <div className="flex-1 p-4">
         {/* Your main content goes here */}
+        <Routes>
+          <Route path="/account">
+            <Account />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Routes>
         <h1 className="text-2xl font-bold text-white">Welcome to My App</h1>
         <p className="text-white mt-2">This is the main content area.</p>
       </div>
