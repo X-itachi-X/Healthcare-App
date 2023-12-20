@@ -13,13 +13,13 @@ function App() {
         <a href="#" className="text-white block p-2 hover:bg-gray-700 mt-3">
           Link 2
         </a>
-        <a href="#" className="text-white block p-2 hover:bg-gray-700">
+        <a href="#" className="text-white block p-2 hover:bg-gray-700 mt-3">
           Link 3
         </a>
-        <a href="#" className="text-white block p-2 hover:bg-gray-700">
+        <a href="#" className="text-white block p-2 hover:bg-gray-700 mt-3">
           Link 4
         </a>
-        <a href="#" className="text-white block p-2 hover:bg-gray-700">
+        <a href="#" className="text-white block p-2 hover:bg-gray-700 mt-3">
           Link 5
         </a>
         {/* Add more links/icons as needed */}
