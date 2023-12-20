@@ -17,7 +17,7 @@ function App() {
           Chat
         </a>
         <a href="#" className="text-white block p-2 hover:bg-gray-700 mt-3">
-          Link 4
+          Appointments
         </a>
         <a href="#" className="text-white block p-2 hover:bg-gray-700 mt-3">
           Link 5
