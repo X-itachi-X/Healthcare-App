@@ -14,7 +14,7 @@ function App() {
           Account
         </a>
         <a href="#" className="text-white block p-2 hover:bg-gray-700 mt-3">
-          Link 3
+          Chat
         </a>
         <a href="#" className="text-white block p-2 hover:bg-gray-700 mt-3">
           Link 4
