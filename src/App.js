@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <p className='bg-blue-500 p-4'>Learn React</p>
+          <p className='bg-blue-800 p-4'>Learn React</p>
         </a>
       </header>
     </div>
