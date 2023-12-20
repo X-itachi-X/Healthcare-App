@@ -41,9 +41,10 @@ function App() {
       <div className="flex-1 p-4">
         {/* Your main content goes here */}
         <Routes>
-          <Route path="/">
-            <Home />
-          </Route>
+        <Route
+            exact
+            path="/"
+            element={<Home />}></Route>
         </Routes>
         <h1 className="text-2xl font-bold text-white">Welcome to My App</h1>
         <p className="text-white mt-2">This is the main content area.</p>
