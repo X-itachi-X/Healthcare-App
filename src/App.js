@@ -14,9 +14,9 @@ function App() {
       <div className="flex-shrink-0 w-60 bg-gray-800 text-center">
         {/* Your navigation links/icons go here */}
         <p className="text-white text-lg m-8 flex justify-around"><FaRegHospital className='w-10 h-10'/>XYZ HealthCare</p>
-        <a href="#" className="text-white block p-2 hover:bg-gray-700 mt-8">
-          <Link to></Link>Home
-        </a>
+        <p className="text-white block p-2 hover:bg-gray-700 mt-8">
+          <Link to="/">Home</Link>
+        </p>
         <a href="#" className="text-white block p-2 hover:bg-gray-700 mt-3">
           Account
         </a>
