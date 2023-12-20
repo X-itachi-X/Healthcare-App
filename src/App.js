@@ -6,7 +6,7 @@ function App() {
       {/* Left Sidebar */}
       <div className="flex-shrink-0 w-60 bg-gray-800 text-center">
         {/* Your navigation links/icons go here */}
-        <p className="text-white text-lg block m-8 justify-center"><FaRegHospital className='w-10 h-10'/>XYZ HealthCare</p>
+        <p className="text-white text-lg block m-8 justify-center flex"><FaRegHospital className='w-10 h-10'/>XYZ HealthCare</p>
         <a href="#" className="text-white block p-2 hover:bg-gray-700 mt-8">
           Link 1
         </a>
