@@ -3,8 +3,8 @@ import './styles/tailwind.css';
 
 function App() {
   return (
-    <div>
-      <p className='bg-red'>Hello world</p>
+    <div className='bg-blue-500 p-4'>
+      <p>Hello world</p>
     </div>
   );
 }
