@@ -8,6 +8,7 @@ import Payment from './components/payment';
 import Schedule from './components/schedule';
 function App() {
   return (
+    <Route>
     <div className="flex h-screen bg-gray-600">
       {/* Left Sidebar */}
       <div className="flex-shrink-0 w-60 bg-gray-800 text-center">
@@ -42,6 +43,7 @@ function App() {
         <p className="text-white mt-2">This is the main content area.</p>
       </div>
     </div>
+    </Route>
   );
 }
 
