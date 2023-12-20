@@ -7,7 +7,7 @@ function App() {
       <div className="flex-shrink-0 w-60 bg-gray-800 text-center">
         {/* Your navigation links/icons go here */}
         <p className="text-white text-lg p-2"><FaRegHospital className='w-10 h-10' /></p>
-        <a href="#" className="text-white block p-2 hover:bg-gray-700 mt-4">
+        <a href="#" className="text-white block p-2 hover:bg-gray-700 mt-8">
           Link 1
         </a>
         <a href="#" className="text-white block p-2 hover:bg-gray-700">
