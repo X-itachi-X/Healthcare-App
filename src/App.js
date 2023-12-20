@@ -11,7 +11,7 @@ function App() {
           Home
         </a>
         <a href="#" className="text-white block p-2 hover:bg-gray-700 mt-3">
-          Link 2
+          Account
         </a>
         <a href="#" className="text-white block p-2 hover:bg-gray-700 mt-3">
           Link 3
