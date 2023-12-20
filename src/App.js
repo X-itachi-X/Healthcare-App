@@ -2,7 +2,7 @@ import React from 'react';
 import { FaRegHospital  } from "react-icons/fa";
 function App() {
   return (
-    <div className="flex h-screen bg-gray-800">
+    <div className="flex h-screen bg-gray-600">
       {/* Left Sidebar */}
       <div className="flex-shrink-0 w-60 bg-gray-900">
         {/* Your navigation links/icons go here */}
