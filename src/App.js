@@ -1,5 +1,5 @@
 import './styles/tailwind.css';
-
+import React from 'react';
 function App() {
   return (
     <div className='bg-blue-500 p-4'>
