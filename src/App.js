@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 import { FaRegHospital  } from "react-icons/fa";
 function App() {
   return (
