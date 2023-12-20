@@ -1,12 +1,12 @@
 import React from 'react';
-import * as Unicons from '@iconscout/react-unicons';
+import { UisHospital } from '@iconscout/react-unicons-solid'
 function App() {
   return (
     <div className="flex h-screen bg-gray-800">
       {/* Left Sidebar */}
       <div className="flex-shrink-0 w-16 bg-gray-900">
         {/* Your navigation links/icons go here */}
-        <p className="text-white text-lg p-2"><Unicons.UilReact /></p>
+        <p className="text-white text-lg p-2"><UisHospital /></p>
         <a href="#" className="text-white block p-2 hover:bg-gray-700">
           Link 1
         </a>
